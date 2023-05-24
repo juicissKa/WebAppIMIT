@@ -1,0 +1,107 @@
+.app{
+	font-family: 'Roboto', sans-serif;
+}
+.app__containter{
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+.app__search{
+	margin-right: 30px;
+}
+.input{
+	display: block;
+	margin-bottom: 20px;
+	line-height: 1.7;
+	font-size: 19px;
+	border: 2px solid #DADADA;
+	border-radius: 10px;
+	width: 350px;
+	
+}
+.button{
+	margin-bottom: 20px;
+	font-size: 19px;
+	border-radius: 5px;
+	border:none;
+	padding: 5px;
+	cursor: pointer;
+}
+::placeholder {
+	opacity: 0.4;
+}
+.search{
+}
+
+table, th, td {
+	border: 3px solid #fff;
+	padding:8px;
+	border-collapse:collapse
+}
+
+th{
+	background-color: #3498DB;
+	color: #fff;
+}
+
+td{
+	background-color: #DADADA;
+}
+
+.line{
+	cursor: pointer;
+}
+
+.modal{
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0%;
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+.modal_actived{
+	opacity: 100%;
+	pointer-events: all;
+}
+
+.modal__container{
+	width: 600px;
+	height: 600px;
+	overflow-y: scroll;
+	padding: 50px;
+	background-color: #fff;
+}
+
+.login{
+	display: flex;
+	justify-content: center;
+
+}
+.login__container{
+	margin-top: 50px;
+	padding: 0px 10px 0px 10px;
+	border-radius: 10px;
+	background-color: #3498DB;
+
+}
+
+.login__header{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.login__button{
+	display: flex;
+	justify-content: center;
+}
