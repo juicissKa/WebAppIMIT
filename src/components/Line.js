@@ -26,7 +26,7 @@ const Line = (props) => {
 		props.setModalActive(true);
 	}
 	return (
-			<tr className='line' onDoubleClick={() => set()}>
+			<tr className='line' onClick={() => set()}>
 				<td>{props.info.fio}</td>
 				<td>{props.info.id}</td>
 				<td>{props.info.login}</td>

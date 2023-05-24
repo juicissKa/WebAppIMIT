@@ -49,7 +49,11 @@ td{
 }
 
 .line{
+}
+
+.line:hover{
 	cursor: pointer;
+	color: #3498DB;
 }
 
 .modal{
